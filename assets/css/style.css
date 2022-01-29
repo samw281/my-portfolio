@@ -1,0 +1,67 @@
+:root {
+    --red: #ae2012;
+    --blue: #0a9396;
+    --orange: #ca6702;
+    --black: #001219;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: var(--red)
+
+}
+
+.h1-div {
+    background-color: var(--blue);
+}
+
+ .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: underline;
+ }
+
+ .navbar a {
+     flex-wrap: wrap;
+     text-decoration: none;
+     text-align: center;
+     padding: 30px 20px ;
+     color: var(--black);
+     font-size: 25px;
+ }
+
+.hero {
+  background-size: cover;
+}
+
+section h3 {
+    font-size: 27px;
+}
+
+section p {
+
+}
+
+.about {
+    display: flex;
+}
+
+.about h3 {
+    margin-right: 120px;
+    border-right: black solid 7px;
+    padding-right: 3px;
+}
+
+
+.about article p {
+    display: flex;
+    flex-direction: column;
+}
+
+

@@ -9,6 +9,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: var(--orange);
+}
 header {
     display: flex;
     background-color: var(--red)
@@ -25,6 +28,7 @@ header {
     justify-content: space-between;
     align-items: center;
     text-decoration: underline;
+   
  }
 
  .navbar a {
@@ -34,10 +38,20 @@ header {
      padding: 30px 20px ;
      color: var(--black);
      font-size: 25px;
+     margin-left: auto;
  }
 
 .hero {
+    background-image: url(../images/background-image.jpg);
+    display: flex;
   background-size: cover;
+}
+
+.hero h3 {
+    background-color: var(--blue);
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 80px;
 }
 
 section h3 {
@@ -53,7 +67,7 @@ section p {
 }
 
 .about h3 {
-    margin-right: 120px;
+    margin-left: 120px;
     border-right: black solid 7px;
     padding-right: 3px;
 }
@@ -62,6 +76,62 @@ section p {
 .about article p {
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
+}
+
+.work {
+    display: flex;
+}
+
+.work h3 {
+    margin-left: 130px;
+    border-right: black solid 7px;
+    padding-right: 3px;
+}
+
+.surf {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
+.surf h4, .surf p {
+    flex-wrap: wrap;
+    justify-self: flex-start;
+}
+.work article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.work h4, .work p {
+    flex-wrap: wrap;
+    justify-self: flex-start;
+}
+
+footer {
+    display: flex;
+}
+
+footer h3 {
+    font-size: 27px;
+}
+
+.contact {
+
+}
+
+
+ .contact-info {
+     justify-content: space-evenly;
+     flex: 2 0 50px;
+     align-items: center;
+     text-decoration: underline;
+     font-size: 20px;
+     justify-self: center;
+ }

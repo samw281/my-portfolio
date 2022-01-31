@@ -10,31 +10,34 @@
 }
 
 body {
-    background-color: var(--orange);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
 header {
     display: flex;
+    flex-wrap: wrap;
     background-color: var(--red)
 
 }
 
 .h1-div {
     background-color: var(--blue);
+    flex-wrap: wrap;
 }
 
- .navbar {
+ nav {
+     flex: 1;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
-    text-decoration: underline;
-   
  }
 
  .navbar a {
-     flex-wrap: wrap;
-     text-decoration: none;
-     text-align: center;
+     text-decoration: underline;
      padding: 30px 20px ;
      color: var(--black);
      font-size: 25px;
@@ -59,7 +62,7 @@ section h3 {
 }
 
 section p {
-
+    font-size: 15px;
 }
 
 .about {
@@ -75,7 +78,6 @@ section p {
 
 .about article p {
     display: flex;
-    flex-direction: column;
     margin-left: 10px;
 }
 
@@ -89,49 +91,49 @@ section p {
     padding-right: 3px;
 }
 
+}
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .surf {
-    display: flex;
     flex: 2;
-    flex-direction: column;
     flex-wrap: wrap;
+    background-image: url(../images/placeholder.png);
 }
 
-
-.surf h4, .surf p {
-    flex-wrap: wrap;
-    justify-self: flex-start;
-}
-.work article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-self: center;
-    margin-left: 10px;
+.card {
     flex: 1;
-}
-
-.work h4, .work p {
-    flex-wrap: wrap;
-    justify-self: flex-start;
-}
-
-footer {
-    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/placeholder.png);
 }
 
 footer h3 {
+    margin-left: 50px;
+    border-right: black solid 7px;
+    padding-right: 3px;
     font-size: 27px;
+    
 }
 
-.contact {
+footer {
+ display: flex;
+justify-content: space-around;
+
 
 }
 
 
  .contact-info {
-     justify-content: space-evenly;
+     display: flex;
+     justify-content: space-around;
      flex: 2 0 50px;
      align-items: center;
      text-decoration: underline;
      font-size: 20px;
-     justify-self: center;
+     margin-left: 10px;
+     color: var(--black);
+
  }

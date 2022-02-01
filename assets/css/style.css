@@ -17,7 +17,7 @@ main {
     display: flex;
     flex-direction: column;
 }
-header {
+.header {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--red)
@@ -91,24 +91,40 @@ section p {
     padding-right: 3px;
 }
 
-}
 .work-container {
+    margin-left: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    width: 60%;
+
 }
 
-.surf {
-    flex: 2;
-    flex-wrap: wrap;
+}
+
+.card-top {
+    flex-basis: 300px;
+    margin: 10px;
+    border: solid 5px var(--blue);
+    justify-self: start;
     background-image: url(../images/placeholder.png);
 }
 
-.card {
+.card-center {
     flex: 1;
-    justify-content: space-around;
+    margin: 10px;
+    border: solid 5px var(--blue);
+    justify-self: center;
     background-image: url(../images/placeholder.png);
 }
+
+.card-bottom {
+    flex: 1;
+    margin: 10px;
+    border: solid 5px var(--blue);
+    justify-self: end;
+    background-image: url(../images/placeholder.png);
+}
+
 
 footer h3 {
     margin-left: 50px;

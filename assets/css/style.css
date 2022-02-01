@@ -99,10 +99,9 @@ section p {
 
 }
 
-}
 
 .card-top {
-    flex-basis: 300px;
+    flex-basis: 100%;
     margin: 10px;
     border: solid 5px var(--blue);
     justify-self: start;
@@ -110,7 +109,7 @@ section p {
 }
 
 .card-center {
-    flex: 1;
+    flex: 0 0 45.8%;
     margin: 10px;
     border: solid 5px var(--blue);
     justify-self: center;
@@ -118,7 +117,7 @@ section p {
 }
 
 .card-bottom {
-    flex: 1;
+    flex: 0 0 200px;
     margin: 10px;
     border: solid 5px var(--blue);
     justify-self: end;

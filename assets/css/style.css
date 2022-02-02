@@ -1,7 +1,7 @@
 :root {
     --red: #ae2012;
     --blue: #0a9396;
-    --orange: #ca6702;
+    --char: #424B54;
     --black: #001219;
 }
 
@@ -9,18 +9,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-
-}
-
-main {
-    display: flex;
-    flex-direction: column;
+.title-navbar {
+    width: 100%;
 }
 .header {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--red)
+    background-color: var(--char);
 
 }
 
@@ -39,7 +34,7 @@ main {
  .navbar a {
      text-decoration: underline;
      padding: 30px 20px ;
-     color: var(--black);
+     color: var(--blue);
      font-size: 25px;
      margin-left: auto;
  }
@@ -47,7 +42,7 @@ main {
 .hero {
     background-image: url(../images/background-image.jpg);
     display: flex;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .hero h3 {
@@ -71,7 +66,7 @@ section p {
 
 .about h3 {
     margin-left: 120px;
-    border-right: black solid 7px;
+    border-right: var(--black) solid 7px;
     padding-right: 3px;
 }
 
@@ -87,7 +82,7 @@ section p {
 
 .work h3 {
     margin-left: 130px;
-    border-right: black solid 7px;
+    border-right: var(--black) solid 7px;
     padding-right: 3px;
 }
 
@@ -101,54 +96,118 @@ section p {
 
 
 .card-top {
-    flex-basis: 100%;
+    flex: 0 0 95.5%;
     margin: 10px;
     border: solid 5px var(--blue);
-    justify-self: start;
     background-image: url(../images/placeholder.png);
 }
 
 .card-center {
-    flex: 0 0 45.8%;
+    flex: 0 0 45.869%;
     margin: 10px;
     border: solid 5px var(--blue);
-    justify-self: center;
     background-image: url(../images/placeholder.png);
 }
 
-.card-bottom {
-    flex: 0 0 200px;
-    margin: 10px;
-    border: solid 5px var(--blue);
-    justify-self: end;
-    background-image: url(../images/placeholder.png);
+.card-header {
+    font-size: 20px;
 }
-
 
 footer h3 {
     margin-left: 50px;
-    border-right: black solid 7px;
+    border-right: var(--black) solid 7px;
     padding-right: 3px;
     font-size: 27px;
-    
 }
 
 footer {
  display: flex;
 justify-content: space-around;
 
-
 }
-
-
  .contact-info {
      display: flex;
      justify-content: space-around;
      flex: 2 0 50px;
+     color: var(--blue);
      align-items: center;
      text-decoration: underline;
      font-size: 20px;
      margin-left: 10px;
      color: var(--black);
+}
 
+ @media screen and (max-width: 768px) {
+   
+    
+ .navbar a {
+    text-decoration: none;
+    padding: 20px;
+    color: var(--blue);
+    font-size: 25px;
+    margin: none;
+}
+
+    .about {
+        display: flex;
+        flex-direction: column;
+   }
+    .about h3 {
+        margin: none;
+        border-right: none;
+        padding-right: 0;
+        border-bottom: var(--black) solid 7px;
+        text-align: center;
+    }
+
+.work {
+    display: flex;
+    flex-direction: column;
+}
+    
+.work h3 {
+    margin: none ;
+    border-right: none;
+    border-bottom: var(--black) solid 7px;
+    text-align: center;
+}
+
+.work-container {
+    margin: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-top {
+    flex: 0 0 95.5%;
+    margin: none;
+    border: solid 5px var(--blue);
+    background-image: url(../images/placeholder.png);
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: none;
+    color: var(--black);
+ }
+
+ footer h3 {
+    margin: none;
+    border-bottom: var(--black) solid 7px;
+    border-right: none;
+    font-size: 27px;
+    text-align: center;
+    }
  }

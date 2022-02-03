@@ -13,4 +13,4 @@ https://samw281.github.io/my-portfolio/
 ## Contribution
 Made by Sam Williams
 
-![Portfolio Screenshot](/assets/images/Screenshot.png)
+![Portfolio Screenshot](/assets/images/Screenshot2.png)

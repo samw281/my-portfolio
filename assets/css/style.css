@@ -108,27 +108,74 @@ section p {
     display: flex;
     flex-wrap: wrap;
     width: 60%;
+}
 
+/* text styles for work conainter header */
+.work-container header {
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px white;
+}
+
+/* text styles for work conainter p */
+.work-container p {
+    font-size: 30px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px white;
 }
 
 /* styles for first project */
 .card-top {
     flex: 0 0 95.5%;
+    height: 200px;
     margin: 10px;
     border: solid 5px var(--blue);
-    background-image: url(../images/placeholder.png);
+    text-decoration: none;
+    color: var(--black);
 }
 
 /* styles for remaining projects */
 .card-center {
     flex: 0 0 45.869%;
+    height: 200px;
     margin: 10px;
     border: solid 5px var(--blue);
-    background-image: url(../images/placeholder.png);
+    text-decoration: none;
+    color: var(--black);
 }
 /* styles for project headers */
 .card-header {
     font-size: 20px;
+}
+
+/*  img for surf report */
+.surf {
+    background-image: url(../images/surf-report.jpg);
+    background-size: 100%;
+}
+
+/* img for led wall */
+.led-wall {
+    background-image: url(../images/led-wall.jpg);
+    background-size: 100%;
+}
+
+/* img for calculator */
+.calculator {
+    background-image: url(../images/calculator.jpg);
+    background-size: 100%;
+}
+
+/* img for pastel puzzels */
+.pastel-puzzels {
+    background-image: url(../images/pastel-puzzel.jpg);
+    background-size: 100%;
+}
+
+/* img for run buddy */
+.run-buddy {
+    background-image: url(../images/run-buddy-img.png);
+    background-size: 100%;
 }
 /* styles for footer h3 */
 footer h3 {
@@ -141,9 +188,9 @@ footer h3 {
 footer {
  display: flex;
 justify-content: space-around;
+}
 
 /* styles for container holding contact info */
-}
  .contact-info {
      display: flex;
      justify-content: space-around;

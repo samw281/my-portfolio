@@ -1,29 +1,37 @@
+/* set root pseudo class styles */
 :root {
     --red: #ae2012;
     --blue: #0a9396;
     --char: #424B54;
     --black: #001219;
 }
-
+/* sets universal font style */
 * {
     font-family: 'Montserrat', sans-serif;
 }
-
+/* sets navbar to 100% width */
 .title-navbar {
     width: 100%;
 }
+
+/* styles for avatar image */
+.hero img {
+    width: 10%;
+}
+/* styles for header */
 .header {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--char);
-
 }
 
+/* set styles for header h1 container */
 .h1-div {
     background-color: var(--blue);
     flex-wrap: wrap;
 }
 
+/* set styles for nav container */
  nav {
      flex: 1;
     display: flex;
@@ -31,6 +39,7 @@
     align-items: center;
  }
 
+ /* set styles for nav content */
  .navbar a {
      text-decoration: underline;
      padding: 30px 20px ;
@@ -39,12 +48,14 @@
      margin-left: auto;
  }
 
+ /* set styles for hero section */
 .hero {
     background-image: url(../images/background-image.jpg);
     display: flex;
   background-size: 100%;
 }
 
+/* set styles for hero h3 */
 .hero h3 {
     background-color: var(--blue);
     margin-left: auto;
@@ -52,40 +63,46 @@
     margin-top: 80px;
 }
 
+/* set style for all section h3's */
 section h3 {
     font-size: 27px;
 }
 
+/* set styles for all section p's */
 section p {
     font-size: 15px;
 }
 
+/* set styles for about container */
 .about {
     display: flex;
 }
 
+/* set styles for about h3 */
 .about h3 {
     margin-left: 120px;
     border-right: var(--black) solid 7px;
     padding-right: 3px;
 }
 
-
+/* set styles for about p */
 .about article p {
     display: flex;
     margin-left: 10px;
 }
 
+/* set styles for work container */
 .work {
     display: flex;
 }
 
+/* set styles for work h3 */
 .work h3 {
     margin-left: 130px;
     border-right: var(--black) solid 7px;
     padding-right: 3px;
 }
-
+/* styles for container holding projects */
 .work-container {
     margin-left: 10px;
     display: flex;
@@ -94,7 +111,7 @@ section p {
 
 }
 
-
+/* styles for first project */
 .card-top {
     flex: 0 0 95.5%;
     margin: 10px;
@@ -102,28 +119,30 @@ section p {
     background-image: url(../images/placeholder.png);
 }
 
+/* styles for remaining projects */
 .card-center {
     flex: 0 0 45.869%;
     margin: 10px;
     border: solid 5px var(--blue);
     background-image: url(../images/placeholder.png);
 }
-
+/* styles for project headers */
 .card-header {
     font-size: 20px;
 }
-
+/* styles for footer h3 */
 footer h3 {
     margin-left: 50px;
     border-right: var(--black) solid 7px;
     padding-right: 3px;
     font-size: 27px;
 }
-
+/* styles for footer */
 footer {
  display: flex;
 justify-content: space-around;
 
+/* styles for container holding contact info */
 }
  .contact-info {
      display: flex;
@@ -137,6 +156,7 @@ justify-content: space-around;
      color: var(--black);
 }
 
+/* media query for screens 768px and below */
  @media screen and (max-width: 768px) {
    
     

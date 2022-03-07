@@ -150,30 +150,35 @@ section p {
 
 /*  img for surf report */
 .surf {
+    border-radius: 20px;
     background-image: url(../images/surf-report.jpg);
     background-size: 100%;
 }
 
 /* img for led wall */
 .led-wall {
+    border-radius: 20px;
     background-image: url(../images/led-wall.jpg);
     background-size: 100%;
 }
 
 /* img for calculator */
 .calculator {
+    border-radius: 20px;
     background-image: url(../images/calculator.jpg);
     background-size: 100%;
 }
 
 /* img for pastel puzzels */
 .pastel-puzzels {
-    background-image: url(../images/pastel-puzzel.jpg);
+    border-radius: 20px;
+    background-image: url(../images/group-project-1-screenshot.png);
     background-size: 100%;
 }
 
 /* img for run buddy */
 .run-buddy {
+    border-radius: 20px;
     background-image: url(../images/run-buddy-img.png);
     background-size: 100%;
 }
@@ -242,15 +247,20 @@ justify-content: space-around;
 .work-container {
     margin: none;
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
 }
 
-.card-top {
-    flex: 0 0 95.5%;
-    margin: none;
+
+
+.card-center, .card-top {
+    flex: 0 ;
+    height: 200px;
+    margin: 10px;
     border: solid 5px var(--blue);
-    background-image: url(../images/placeholder.png);
+    text-decoration: none;
+    color: var(--black);
 }
 
 

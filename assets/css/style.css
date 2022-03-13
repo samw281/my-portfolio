@@ -151,7 +151,7 @@ section p {
 /*  img for surf report */
 .surf {
     border-radius: 20px;
-    background-image: url(../images/surf-report.jpg);
+    background-image: url(../images/group-project-1-screenshot.png);
     background-size: 100%;
 }
 
@@ -172,7 +172,7 @@ section p {
 /* img for pastel puzzels */
 .pastel-puzzels {
     border-radius: 20px;
-    background-image: url(../images/group-project-1-screenshot.png);
+    background-image: url(../images/surf-report.jpg);
     background-size: 100%;
 }
 

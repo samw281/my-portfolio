@@ -1,7 +1,7 @@
 # My Portfolio
 
 ## Purpose
-A portfolio to showcase my skills and abilities 
+    A portfolio to showcase my skills and abilities 
 
 ## Built With
 * HTML
@@ -11,6 +11,6 @@ A portfolio to showcase my skills and abilities
 https://samw281.github.io/my-portfolio/
 
 ## Contribution
-Made by Sam Williams
+    Made by Sam Williams
 
 ![Portfolio Screenshot](/assets/images/Screenshot.png)
